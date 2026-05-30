@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索筛选 - 欧美热门电影-热门影片片库-高清影片在线观看</title>
+    <meta name="description" content="搜索全站影片标题、标签、年份、地区和类型，快速进入独立影片详情页。">
+    <meta name="keywords" content="欧美热门电影,热门影片片库,欧美电影,高清影片,电影在线,精选欧美电影,电影片库,影片搜索,电影筛选">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="欧美热门电影首页">
+            <span class="brand-icon" aria-hidden="true">▶</span>
+            <span class="brand-text">欧美热门电影</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+                <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类片库</a>
+                <a class="nav-link" href="ranking.html">排行榜</a>
+                <a class="nav-link is-active" href="search.html">搜索筛选</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <label class="sr-only" for="header-search-input">搜索影片</label>
+            <input id="header-search-input" type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+            <button type="submit" aria-label="搜索">⌕</button>
+        </form>
+        <button class="mobile-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <div class="mobile-menu" data-mobile-menu>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类片库</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索筛选</a>
+    </div>
+</header>
+
+<main class="subpage">
+    <section class="container page-hero compact-hero">
+        <span class="eyebrow">Search</span>
+        <h1>搜索筛选</h1>
+        <p>输入片名、地区、类型、年份或标签，快速检索全站影片。搜索结果会链接到静态详情页。</p>
+        <form class="search-panel" data-global-search>
+            <label class="sr-only" for="global-search-input">搜索全站影片</label>
+            <input id="global-search-input" type="search" name="q" placeholder="例如：欧美电影、悬疑、2025、爱情..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="container page-section">
+        <div class="result-count" data-search-count>请输入关键词开始搜索</div>
+        <div class="search-results" data-search-results></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <section>
+            <a class="brand footer-brand" href="index.html">
+                <span class="brand-icon" aria-hidden="true">▶</span>
+                <span class="brand-text">欧美热门电影</span>
+            </a>
+            <p>聚合站内欧美热门电影条目，结合热度、类型和片库信息，呈现清晰的电影分类页面。</p>
+        </section>
+        <section>
+            <h2>快速导航</h2>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="categories.html">分类片库</a></li>
+                <li><a href="ranking.html">排行榜</a></li>
+                <li><a href="search.html">搜索</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>热门分类</h2>
+            <ul>
+                <li><a href="categories/europe-hot-movies.html">欧美热门电影</a></li>
+                <li><a href="categories/hd-action-adventure.html">高清动作冒险</a></li>
+                <li><a href="categories/mystery-crime-library.html">悬疑犯罪片库</a></li>
+                <li><a href="categories/romance-comedy-picks.html">爱情喜剧精选</a></li>
+                <li><a href="categories/sci-fi-fantasy-world.html">科幻奇幻世界</a></li>
+                <li><a href="categories/costume-history-theater.html">古装历史剧场</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>关于本站</h2>
+            <p>本站以静态 HTML 方式呈现影片片库内容，分类、详情、推荐和搜索入口均可直接访问。</p>
+        </section>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 欧美热门电影 · 高清影片片库</p>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js"></script>
+    <script src="assets/js/search-index.js"></script>
+    <script src="assets/js/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
